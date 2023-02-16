@@ -1,0 +1,294 @@
+
+*{
+  box-sizing: border-box;
+  }
+
+html, body {
+  
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  background-size: cover;
+  background-image:"background.jpg";
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+
+header{
+	background-color:rgb(252, 207, 234, 0.6);
+	width: 100%;
+	padding: 1.5em;
+	font-weight: 700;
+	display:flex;
+	justify-content: space-between;
+}
+h1{
+	text-align: center;
+	margin-bottom: 1em;
+}
+h2{
+	font-size: 1rem;
+	text-align: center;
+}
+
+input{
+	width: 80%;
+	margin-bottom: .5em;
+	border-radius: 5px;
+	border-color: rgb(236,251,250);
+	border-style:solid;
+}
+
+textarea{
+	max-height: 80px;
+	border-radius: 10px;
+	border-color: rgb(240, 240, 245);
+	margin-bottom: 5px;
+}
+
+.input-login{
+	width:100%;
+}
+.input-add, 
+ textarea{
+	width: 100%;
+}
+.title-welcome{
+	margin-top: 2em;
+	margin-bottom: 0;
+	border-bottom: solid 5px rgb(252, 207, 234, 0.8);
+	
+	
+}
+
+.container{
+	background-color:rgb(252, 207, 234, 0.6);
+	max-width: 300px;
+	min-height: 400px;
+	margin: auto;
+	border-radius: 20px;
+	margin-top: 2em;
+
+}
+
+.index-container{
+	background-color:rgb(252, 207, 234, 0.5);
+	max-width: 600px;
+	margin: auto;
+	border-radius: 20px;
+	padding: 10px;
+	margin-top: 3em;
+  
+
+}
+	
+	
+.login{
+	text-align:center;
+	margin: 1em;
+}
+
+.cancel{
+	margin: auto;
+	display: block;
+	text-align:center;
+	padding-top:20px;
+	font-size: 0.8em;
+	
+	
+}
+
+ table,th, td {
+  padding: 5px;
+  margin: auto;
+  font-weight: bold;
+  text-align: center;
+  width: 500px;
+}
+table {
+ border-spacing: 0;
+ border-collapse: separate;
+ border-radius: 10px;
+ border: 1px solid black;
+}
+
+.delete-window{
+	
+	background-color:rgb(252, 207, 234, 0.5);
+	max-width: 400px;
+	height: 200px;
+	margin: auto;
+	border-radius: 10px;
+	position:absolute;
+	top: 0; bottom: 0; left: 0; right: 0;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+  
+}
+.delete-window > p {
+	
+	justify-content: center;
+	
+}
+.delete-window > form {
+	
+	text-align: center;
+	
+	
+}
+.delete-button{
+border-radius: 20px;
+border-color:rgb(236,251,250);
+width: 100px;
+margin-top: 10px;
+
+
+}
+.delete-button:hover{
+	background-color: rgb(105,109,253);
+	border-color: rgb(105,109,253);
+	color: white;
+}
+.logout{
+	display:flex;
+	justify-content: flex-end;
+	font-weight: 600;
+	
+}
+
+label{
+	margin-top: 5px;
+}
+.add-remove-buttons{
+	width: 2em;
+	margin-bottom: .5em;
+	margin-left: 0.5em;
+	border-radius: 5px;
+	border-color: rgb(240, 240, 245);
+	
+}
+.add-remove-buttons:hover{
+	background-color: rgb(105,109,253);
+	border-color: rgb(105,109,253);
+	color: white;
+}
+
+
+.save-button, .add-button{
+border-radius: 50px;
+border-color:rgb(236,251,250);
+width: 100px;
+margin: 0 10px;
+
+}
+
+a, h3{
+	color:rgb(105,109,253);
+}
+
+.view-page{
+	
+	border-radius: 20px;
+	padding:10px;
+	background-color:rgb(252, 207, 234, 0.5);
+	width: 400px;
+	margin-top: 2em;
+}
+
+.add-edit-container{
+
+	border-radius: 20px;
+	padding:10px;
+	background-color:rgb(252, 207, 234, 0.5);
+	width: 500px;
+	margin-top: 2em;
+	
+}
+
+
+}
+
+
+/********BUTTONS********/
+
+.buttons-p{
+	text-align:center;
+	margin-top: 10px;
+}
+.delete-btn{
+	margin-left:.5em;
+}
+.delete-btn:hover,
+.delete-btn:focus{
+	
+	color:red;
+	text-decoration:none;
+}
+.edit-btn{
+	margin-left:.5em;
+}
+.edit-btn:hover{
+	text-decoration:none;
+
+}
+.save-button:hover, .add-button:hover{
+	background-color: rgb(105,109,253);
+	border-color: rgb(105,109,253);
+	color: white;
+}
+
+.cancel-button{
+border-radius: 50px;
+border-color:rgb(236,251,250);
+width: 100px;
+margin: 0 10px;
+}
+
+.cancel-button:hover{
+	background-color: rgb(184, 176, 176);
+	border-color: rgb(184, 176, 176);
+	color: white;
+}
+
+.add-new-button{
+	margin: 15px;
+	text-align: center;
+	font-weight: 600;
+	color:white;
+	margin-top: 2em;
+	
+}
+.add-new-button a{
+	color:black;
+	padding: .5em 1.5em;
+	background-color:rgb(236,251,250);
+	border-radius: 10px;
+}
+
+.add-new-button a:hover{
+	text-decoration:none;
+	background-color: rgb(105,109,253);
+	color:white;
+}
+
+.login-button{
+	width:17em;
+	margin: auto;
+	display: block;
+	margin-top: 1em;
+	background-color:rgb(236,251,250);
+	border-color:rgb(236,251,250);
+	border-radius: 20px;
+	font-weight: 700;
+}
+.login-button:hover{
+	background-color: rgb(105,109,253);
+	border-color: rgb(105,109,253);
+	color: white;
+}
